@@ -1,0 +1,32 @@
+//.banner{
+//  padding: 40px;
+//  background: $color-reset;
+//  border-radius: $radius-size;
+//  @include shadow;
+//  text-align: center;
+//  @include desktop{
+//    display: -webkit-flex;
+//    display: -ms-flex;
+//    display: flex;
+//    text-align: left;
+//  }
+//  &__left{
+//    margin-bottom: 25px;
+//    h1{
+//      font-size: $font-huge;
+//      font-weight: $weight-huge;
+//      margin-bottom: 20px;
+//    }
+//    p{
+//      font-size: $font-big;
+//      font-weight: $weight-tiny;
+//      line-height: 1.33;
+//    }
+//    @include desktop{
+//      padding-right: 50px;
+//    }
+//  }
+//  &__right{
+//
+//  }
+//}

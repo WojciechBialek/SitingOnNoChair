@@ -10,7 +10,7 @@ gulp.task("sass", function(){
             outputStyle: 'expanded'
         }))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest("css"));
+        .pipe(gulp.dest("CSS"));
 })
 
 gulp.task("watch",["sass"], function () {
