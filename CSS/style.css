@@ -3,9 +3,9 @@
 }
 @font-face {
     font-family: "Lato";
-    src: url("../font/NotoSans-Regular.ttf"),
-    url("../fonts/notosans-regular-webfont.woff"),
-    url("../notosans-regular-webfont.woff2");
+    src: url("../Font/NotoSans-Regular.ttf"),
+    url("../Font/notosans-regular-webfont.woff"),
+    url("../Font/notosans-regular-webfont.woff2");
 
 }
 header{
@@ -19,6 +19,7 @@ header{
     font-size: 14px;
 }
 section{
+    font-family: "Lato", sans-serif;
     display: flex;
     justify-content: center;
     width: 100%;
