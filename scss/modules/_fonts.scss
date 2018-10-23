@@ -1,13 +1,22 @@
-/*@import "../fonts/font-awesome.min.css";
-$font-desktop: 14px;
-$font-huge: 3.5em;
-$font-large: 2.75em;
-$font-big: 2.25em;
-$font-medium: 1.35em;
-$font-small: 0.9em;
+//@import "../fonts/font-awesome.min.css";
+//$font-desktop: 14px;
+//$font-huge: 3.5em;
+//$font-large: 2.75em;
+//$font-big: 2.25em;
+//$font-medium: 1.35em;
+//$font-small: 0.9em;
+//
+//$weight-tiny: 300;
+//$weight-regular: 400;
+//$weight-semibold: 600;
+//$weight-bold: 700;
+//$weight-huge: 800;
 
-$weight-tiny: 300;
-$weight-regular: 400;
-$weight-semibold: 600;
-$weight-bold: 700;
-$weight-huge: 800;*/
+
+@font-face {
+  font-family: "Lato";
+  src: url("../Font/NotoSans-Regular.ttf"),
+  url("../Font/notosans-regular-webfont.woff"),
+  url("../Font/notosans-regular-webfont.woff2");
+
+}
