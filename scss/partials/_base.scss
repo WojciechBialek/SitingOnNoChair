@@ -1,0 +1,34 @@
+$radius-size: 10px;
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+.containter{
+  width: 1058px;
+  margin: 0 auto;
+}
+
+.flexStyle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.flexStyle__wrap{
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

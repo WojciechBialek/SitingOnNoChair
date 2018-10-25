@@ -10,45 +10,39 @@
 @import "partials/content.scss";
 
 
-*{
-  padding: 0;
-}
-.containter{
-  width: 1024px;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
-  align-items: center;
-}
 
 
-nav >ul {
-  width: 320px;
-  /*border: 1px solid red;*/
-  display: flex;
-  justify-content: space-between;
-}
+
+
 li{
   list-style-type: none;
   /*border: 1px solid yellow;*/
 }
 .greenText{
-  color: #24ba9f;
+  color: $color-button;
+  font-weight: bold;
 }
 
 .dropdown{
+  font-size: 16px;
+  font-weight: normal;
   /*display: none;*/
   position: absolute;
   /*height: 50px;*/
   padding-top: 30px;
-  /*left:0;*/
+  left:-17px;
   padding-left: 0;
+  text-transform: none;
+  font-family: "Lato", sans-serif;
 }
 
 .dropdown li{
   background-color: black;
-  width: 100px;
-
+  width: 120px;
+  //height: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
 }
 .li_dropdown{
   position: relative;
@@ -61,29 +55,13 @@ li{
   top: 20px;
   left: 45px;
   border-bottom: 10px solid black;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
 }
 
 
 
 
 
-/*
 
-.checkbox span {
-    display: block;
-    background-color: grey;
-    width: 30px;
-    height: 30px;
-}
-.checkbox input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-}
 
-.checkbox input:checked + span {
-
-}*/
