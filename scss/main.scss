@@ -8,7 +8,7 @@
 @import "partials/footer";
 @import "partials/banner.scss";
 @import "partials/content.scss";
-
+@import "partials/_calculator.scss";
 
 
 
@@ -16,7 +16,6 @@
 
 li{
   list-style-type: none;
-  /*border: 1px solid yellow;*/
 }
 .greenText{
   color: $color-button;
@@ -28,7 +27,6 @@ li{
   font-weight: normal;
   display: none;
   position: absolute;
-  /*height: 50px;*/
   padding-top: 30px;
   left:-17px;
   padding-left: 0;
@@ -45,8 +43,6 @@ li{
 }
 .li_dropdown{
   position: relative;
-  border: 1px solid red;
-
 }
 .dropdown:before {
   content: "";
