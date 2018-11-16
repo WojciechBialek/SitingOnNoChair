@@ -1,5 +1,11 @@
-//Dropdown
+/**
+ * Takie coś mozna zrealizować przez :hover w CSS
+ * a jak coś da sie zrobic w CSS to trzeba to zrobić w CSS ;) 
+ * 
+ * Mówię i o dropdown i o "Remove text in pictures on mouseover"
+ */
 
+//Dropdown
 var liDropdown = document.querySelectorAll(".li_dropdown");
 
 liDropdown.forEach(function (el) {
@@ -15,7 +21,6 @@ liDropdown.forEach(function (el) {
 });
 
 // Remove text in pictures on mouseover
-
 var product = document.querySelectorAll(".product");
 var blocksImage=document.querySelectorAll(".product h2");
 
@@ -53,6 +58,7 @@ changePictureprev.addEventListener('click', function(el) {
 
 });
 changePicturenext.addEventListener('click', function(el) {
+    // console.logi z wersji produkcyjnej muszą wylecieć
     console.log("ASdsad");
     if(num=== li.length-1){
         li[num].classList.remove("visible");
