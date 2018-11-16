@@ -14,9 +14,10 @@
                     <li class="li_dropdown">
                         <a href="#">o firmie</a>
                         <ul class="dropdown">
+                            <!-- Wszystkie te elementy muszą być tez linkami -->
                             <li>Aktualnosci</li>
-                            <li>Nasz Team</li>
-                            <li>Historia</li>
+                            <li>Nasz Team</li>                  
+                            <li>Historia</li> <!-- Tego nie da sie najechac myszka. Dropdown znika. -->
                         </ul>
                     </li>
                     <li class="li_dropdown">
@@ -83,6 +84,7 @@
     <section class="containter products">
 
             <div class="product">
+                <!-- Ta kreske pod nagłówkiem lepiej zrobić przez after w css -->
                 <h2>Chair CLAIR<div class="underLine"></div></h2>
             </div>
             <div class="product">
@@ -108,6 +110,7 @@
                 <ul>
                     <li>
                         <h3>BASIC PLAN</h3>
+                        <!-- Te kółka z cenami nie wyglądają tak jak na projekcie niestety. Popraw proszę :) -->
                         <p class="price">
                             85 <sup>99</sup><br>
                             PLN/MSC
@@ -190,6 +193,7 @@
                             <li>Pomarańczowy</li>
                         </ul>
                     </div>
+                    <!-- Fajnie by było jakby po wybraniu, dropdown znikał -->
                     <div class="drop_down_list">
                         <span class="list_label">Wybierz materiał</span>
                         <span class="list_arrow"></span>
@@ -198,6 +202,7 @@
                             <li>Skóra</li>
                         </ul>
                     </div>
+                    <!-- Jak odklikuje checkboxa to się cena za transport nie zmienia -->
                     <div class="checkbox check-box">
                         <input type="checkbox" id="transport" data-transport-price="200">
                         <label for="transport">Transport</label>
